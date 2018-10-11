@@ -1,0 +1,82 @@
+h1 {
+    text-align: left;
+    color: rgb(26, 188, 156);
+    font-family: serif;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: right;
+    color: rgb(26, 188, 156);
+    font-family: serif;
+    font-weight: bold;
+}
+
+.box {
+    width: 150 px;
+    height: 150px;
+    background: white;
+    border: 1px black;
+}
+
+.header{
+    background-color: white;
+}
+
+.navbar{
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar li{
+    background-color: white;
+    display: inline-block;
+}
+
+.navbar li a{
+    display: inline-block;
+}
+
+body{
+    background-color: rgb(218, 213, 213);
+}
+
+p.solid{
+    background-color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    float: left;
+    clear: left;
+    display: inline-block;
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    
+}
+
+title {
+    background-color: rgb(26, 188, 156);
+    border: 1px
+}
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    color: white;
+  }
+
+//Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+//Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }

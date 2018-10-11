@@ -1,0 +1,62 @@
+h1 {
+    text-align: left;
+    color: rgb(26, 188, 156);
+    font-family: serif;
+}
+
+h2 {
+    text-align: right;
+    color: rgb(26, 188, 156);
+    font-family: serif;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(26, 188, 156);
+    font-family: serif;
+}
+
+body{
+    background-color: rgb(218, 213, 213);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+/* img {
+    padding: 5px;
+    float: left;
+    clear: left;
+    display: inline-block;
+    text-align: center; */
+}
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+
+ Small devices (landscape phones, 576px and up)
+ @media (min-width: 576px) { ... }
+
+ Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) { ... }
+
+ Large devices (desktops, 992px and up)
+ @media (min-width: 992px) { ... }

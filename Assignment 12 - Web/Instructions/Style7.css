@@ -1,0 +1,36 @@
+h1 {
+    text-align: left;
+    color: rgb(26, 188, 156);
+    font-family: serif;
+    font-weight: bold;
+    padding: 10px
+}
+
+h2 {
+    font-family: serif;
+    font-size: 13px;
+
+}
+
+h3 {
+    color: rgb(26, 188, 156)
+}
+
+body {
+    background-color: rgb(218, 213, 213);
+}
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+//Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+//Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
